@@ -1,0 +1,16 @@
+{
+  "name": "secondhalf-seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "serve": "npm run build && node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "firebase-admin": "^10.0.2"
+  }
+}
